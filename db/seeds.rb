@@ -65,7 +65,7 @@ Album.create!(
   ]
 )
 
-# zeppelin_album = Album.create!(title: "Whole lotta love", description: "Who lotta love song from zeppelin", artist: zeppelin, image_url: "https://img.freepik.com/free-photo/door-opening-new-world-composition_23-2150172141.jpg?size=626&ext=jpg")
-#
-# Comment.create!([{ title: "Great!", description: "Your album is great!", artist: taylor, album: zeppelin_album }])
-# Comment.create!([{ title: "Not Great!", description: "Your album is not so great!", artist: opeth, album: zeppelin_album }])
+zeppelin_album = Album.create!(title: "Whole lotta love", description: "Who lotta love song from zeppelin", artist: zeppelin, image_url: "https://img.freepik.com/free-photo/door-opening-new-world-composition_23-2150172141.jpg?size=626&ext=jpg")
+
+Comment.create!([{ title: "Great!", description: "Your album is great!", artist: taylor, album: zeppelin_album }])
+Comment.create!([{ title: "Not Great!", description: "Your album is not so great!", artist: opeth, album: zeppelin_album }])

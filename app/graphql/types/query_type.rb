@@ -6,8 +6,14 @@ module Types
 
     field :albums, [Types::AlbumType]
 
+    field :artists, [Types::ArtistType]
+
     def albums
       Album.all
+    end
+
+    def artists
+      Artist.all
     end
   end
 end
