@@ -12,6 +12,18 @@ taylor = Artist.create!(
   last_name: "Swift"
 )
 
+zeppelin = Artist.create!(
+  email: "ledzeppelin@example.com",
+  first_name: "zeplin",
+  last_name: "led"
+)
+
+opeth = Artist.create!(
+  email: "opeth@example.com",
+  first_name: "opeth",
+  last_name: "opeth"
+)
+
 Album.create!(
   [
     {
@@ -27,16 +39,28 @@ Album.create!(
       image_url: "https://static.wikia.nocookie.net/taylor-swift/images/9/93/Red_%28Taylor%27s_Version%29.jpeg/revision/latest/scale-to-width-down/1000?cb=20210618181243"
     },
     {
-      title: "We Are Never Ever Getting Back Together (Taylor's Version)",
-      description: "You go talk to your friends, talk to my friends, talk to me",
-      artist: taylor,
-      image_url: "https://static.wikia.nocookie.net/taylor-swift/images/9/93/Red_%28Taylor%27s_Version%29.jpeg/revision/latest/scale-to-width-down/1000?cb=20210618181243"
+      title: "Stairway to heaven",
+      description: "Stairway to heaven",
+      artist: zeppelin,
+      image_url: "https://img.freepik.com/free-photo/door-opening-new-world-composition_23-2150172141.jpg?size=626&ext=jpg"
     },
     {
-      title: "Begin Again (Taylor's Version)",
-      description: "But on a Wednesday in a café, I watched it begin again",
-      artist: taylor,
-      image_url: "https://static.wikia.nocookie.net/taylor-swift/images/9/93/Red_%28Taylor%27s_Version%29.jpeg/revision/latest/scale-to-width-down/1000?cb=20210618181243"
+      title: "Immigrant",
+      description: "Immigrant song",
+      artist: zeppelin,
+      image_url: "https://img.freepik.com/free-photo/door-opening-new-world-composition_23-2150172141.jpg?size=626&ext=jpg"
+    },
+    {
+      title: "Windowpane",
+      description: "Windownpane song",
+      artist: opeth,
+      image_url: "https://img.freepik.com/free-photo/door-opening-new-world-composition_23-2150172141.jpg?size=626&ext=jpg"
+    },
+    {
+      title: "Black rose immortal",
+      description: "black rose immortal",
+      artist: opeth,
+      image_url: "https://img.freepik.com/free-photo/door-opening-new-world-composition_23-2150172141.jpg?size=626&ext=jpg"
     }
   ]
 )
